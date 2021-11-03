@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8em;
+    background: #0041b4;
+    color: white;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+.header-links {
+    display: flex;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 2em;
+    background: #4f8fff;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+nav ul li {
+    display: inline;
+    border-right: solid 1px black;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    align-content: center;
+    align-items: baseline;
+}
+
+nav ul li:last-of-type {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+a.header-link {
+    color: white;
+    font-size: 0.75em;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2 {
+    font-size: 1rem;
+}
+
+h2 {
+    margin: 1rem 0 0 0; 
+    padding: 0.25rem;
+    display: inline-block;
+    width: 30%;
+    color: white;
+    background: #4f8fff;
+}
+
+section.profile-info {
+    display: flex;
+    width: 30%;
+}
+
+.pro-info {
+    padding: 0 1em 0 0;
+    font-size: 0.85rem;
+}
+
+div.col2 {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.profile-asl span {
+    display: block;
+}
+
+section.contact-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 3px #4f8fff;
+    width: 30%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+.contact-column1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.contact-column2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+section.interests table {
+    width: 30%;
+}
+
