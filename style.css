@@ -21,7 +21,18 @@ header {
 
 main {
     padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
 }
+
+.main-column1 {
+    width: 35%
+}
+
+.main-column2 {
+    width: 50%
+}
+
 
 .header-links {
     display: flex;
@@ -37,7 +48,7 @@ nav {
     display: flex;
     width: 100%;
     height: 2em;
-    background: #4f8fff;
+    background: #5f8ad4;
     align-items: center;
 }
 
@@ -64,6 +75,7 @@ a {
     text-decoration: none;
     padding: 0.5em;
     font-size: 1em;
+    color: #0041b4;
 }
 
 a.header-link {
@@ -82,15 +94,19 @@ h1, h2 {
 h2 {
     margin: 1rem 0 0 0; 
     padding: 0.25rem;
-    display: inline-block;
-    width: 30%;
     color: white;
-    background: #4f8fff;
+    background: #5f8ad4;
+}
+
+h4 {
+    display: inline-block;
+    width: auto;
+    margin: 0;
 }
 
 section.profile-info {
     display: flex;
-    width: 30%;
+
 }
 
 .pro-info {
@@ -110,12 +126,17 @@ div.col2 {
 section.contact-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: solid 3px #4f8fff;
-    width: 30%;
+    border: solid 3px #5f8ad4;
+
     text-align: center;
     padding: 0.5rem;
 }
 
+section.myspace-id {
+    border: solid 2px #5f8ad4;
+    padding: 1rem;
+    margin: 2rem 0;
+}
 
 .contact-column1 {
     display: flex;
@@ -129,7 +150,20 @@ section.contact-box {
     flex-wrap: nowrap;
 }
 
-section.interests table {
-    width: 30%;
+div.extended-network {
+    border: solid 2px black;
+    text-align: center;
+    padding: 1em;
+    margin: 0 0 2rem 0;
 }
 
+section.blog-entry-box {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+}
+
+section.myspace-id {
+    display: flex;
+    flex-direction: column;
+}
